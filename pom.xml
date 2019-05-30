@@ -128,7 +128,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://192.168.0.3:8080/manager/text</url>
-					<path>/df</path>
+					<path>/douzone</path>
 					<username>admin</username>
 					<password>tjdwns12</password>
 				</configuration>
