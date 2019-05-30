@@ -4,11 +4,7 @@ import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
 
 @Entity
-@Table(name="eval_item", uniqueConstraints = {
-		@UniqueConstraint(columnNames = {
-				"content"
-		})
-})
+@Table(name="eval_item")
 public class EvalItem {
 	
 	@Column(name="item_no", nullable=false) // 컬럼명 & 길이 & notnull 지정
