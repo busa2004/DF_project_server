@@ -43,6 +43,12 @@
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+<dependency>
+        <groupId>org.springframework.boot</groupId>	
+        <artifactId>spring-boot-starter-tomcat</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
 
 		<!-- For Working with Json Web Tokens (JWT) -->
 		<dependency>
@@ -128,7 +134,7 @@
 				<artifactId>tomcat-maven-plugin</artifactId>
 				<configuration>
 					<url>http://192.168.0.3:8080/manager/text</url>
-					<path>/douzone</path>
+					<path>/df</path>
 					<username>admin</username>
 					<password>tjdwns12</password>
 				</configuration>
